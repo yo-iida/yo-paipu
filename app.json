@@ -1,10 +1,11 @@
 {
   "name": "yo-paipu",
-  "description": "",
+  "description": "pipeline test",
   "env": {
   },
   "addons": [
-    "heroku-postgresql:hobby-dev"
+    "heroku-postgresql:hobby-dev",
+    "papertrail:choklad"
   ],
   "scripts": {
    "postdeploy": "bundle exec rake db:migrate"
